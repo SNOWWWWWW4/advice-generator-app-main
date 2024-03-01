@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-color: black;
+  height: 100vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.mainContainer {
+  background-color: rgba(128, 128, 128, 0.477);
+  padding-top:2%;
+  padding-left:10%;
+  margin-left: 30%;
+  padding-right:10%;
+  margin-right:30%;
+  height: 35%;
+  border-radius: 10px;
+}
+
+.idText {
+  color: aqua;
+}
+
+.adviceText {
+  color:lightgray;
+}
+
+.nextBtn {
+  margin-top: 5%;
+  
+}
